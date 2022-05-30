@@ -34,7 +34,6 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
- *[Project Title](#projectTitle)
  * [Description](#description)
  * [Installation](#installation)
  * [Usage](#usage)
@@ -42,8 +41,7 @@ function generateMarkdown(data) {
  * [Contact](#contact)
  * [License](#license)
 
- ### Title
- ${data.projectTitle}
+ 
 
  ### Creator
   ${data.fullName}
