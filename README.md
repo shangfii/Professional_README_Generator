@@ -18,24 +18,26 @@
   Shang Celsius
 
  ### Description
- undefined
+ This Application helps you to create a read me faster. This readMe here was started with this application, see the video below.
 
  ### Usage
  To use this application: 
+ ![See How it works](https://github.com/shangfii/Professional_README_Generator/blob/main/images/ezgif.com-gif-maker%20(4).gif)
 
  ### Installation
- so they can focust on the code and deploy faster
+ 1. Install node.js on your computer
+ 2. Add the fs and inquire packages
 
  ### Test Information
- undefined
+ Coming soon
 
  ### Contributors
- undefined
+ Shang Celsius
 
  ### Contact
  Github: shangfii.github.com
 
  Email: shang@shangfii.com
 
- linkedIn: undefined
+ linkedIn: https://www.linkedin.com/in/shang-celsius-302a446b/
  
