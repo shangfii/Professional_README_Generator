@@ -3,7 +3,7 @@
 
   ## Table of Contents
   
- *[Project Title](#projectTitle)
+
  * [Description](#description)
  * [Installation](#installation)
  * [Usage](#usage)
