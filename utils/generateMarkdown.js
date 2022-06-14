@@ -29,6 +29,7 @@ const renderLicenseSection = (license) => {
 // This Function generates markdown for README
 
 function generateMarkdown(data) {
+  // console.log('Here is the info',data)
   return `# ${data.projectTitle}
   ${renderLicenseSection(data.license)}
 
@@ -43,11 +44,16 @@ function generateMarkdown(data) {
 
  
 
- ### Creator
+ ### Created By
+
   ${data.fullName}
 
  ### Description
  ${data.description}
+
+
+ ### Problem Solved
+ ${data.ValueProposed}
 
  ### Usage
  ${data.usage}
@@ -59,7 +65,7 @@ function generateMarkdown(data) {
  ${data.tests}
 
  ### Contributors
- ${data.contributing}
+ ${data.contributors}
 
  ### Contact
  Github: ${data.github}

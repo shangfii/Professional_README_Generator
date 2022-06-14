@@ -6,9 +6,11 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 const questions =[ 
-  {//A greeting and brief description of the application
+  {
+    //an Intro description of the application
+
     type: "confirm",
-    name: "WelcomeMssg",
+    name: "introMessage",
     message: `Hello There! Welcome to the Node README generator App. 
     Answer the following questions to generate a profesional README
     (Hit: enter to continue)`,
@@ -18,7 +20,7 @@ const questions =[
   {
     type: "input",
     name: "fullName",
-    message: "Hello creator what is your full name?",
+    message: "Hello Cocreator what is your full name?",
   },
 
   {
@@ -35,7 +37,7 @@ const questions =[
 
   {
     type: "input",
-    name: "LinkedIn",
+    name: "linkedin",
     message: `What is your LinkedIn URL?`,
   },
 
@@ -47,15 +49,13 @@ const questions =[
   
   {
     type: "confirm",
-    name: "descriptionMssg",
-    message: `-----------------------------------------------------------------------------------------------
-     What is the purpose of this project, The following questions will help layout your case (Hit enter to continue):`,
-    default: true,
+    name: "description",
+    message: "What is the purpose of this project, The following questions will help layout your case (Hit enter to continue):",
   },
 
   {
     type: "input",
-    name: "TheWhy",
+    name: "ValueProposed",
     message: "What problem does it solve?",
   },
 
@@ -69,15 +69,20 @@ const questions =[
     name: "usage",
     message: "How does someone start to use this project",
   },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Provide atleast one other contributor to this project",
+  },
 
   {
     type: "input",
-    name: "test",
+    name: "tests",
     message: "How can someone test that the application is working?:",
   },
 
   {
-      // select one license for the project using checkbox
+      // schose a license for the project using checkbox
 
     type: 'checkbox',
     message: 'Which license should users of your application be aware of',
@@ -98,7 +103,7 @@ const questions =[
       },
     ], 
     
-    //Depending on what license the user selects, the appropriate links will populate the README file.
+    //Depending on the users choise of license, the appropriate links will populate the README file.
     validate(answer) {
       if (answer === "MIT") {
         answer.link = 'https://opensource.org/licenses/MIT';

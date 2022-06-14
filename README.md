@@ -1,9 +1,8 @@
-# ReadMe Generator
+# shang
   
 
   ## Table of Contents
   
-
  * [Description](#description)
  * [Installation](#installation)
  * [Usage](#usage)
@@ -11,33 +10,35 @@
  * [Contact](#contact)
  * [License](#license)
 
- ### Title
- ReadMe Generator
+ 
 
- ### Creator
-  Shang Celsius
+ ### Created By
+
+  shang
 
  ### Description
- This Application helps you to create a read me faster. This readMe here was started with this application, see the video below.
+ false
+
+
+ ### Problem Solved
+ shang
 
  ### Usage
- To use this application: 
- ![See How it works](https://github.com/shangfii/Professional_README_Generator/blob/main/images/ezgif.com-gif-maker%20(4).gif)
+ suang
 
  ### Installation
- 1. Install node.js on your computer
- 2. Add the fs and inquire packages
+ shang
 
  ### Test Information
- Coming soon
+ shang
 
  ### Contributors
- Shang Celsius
+ shang
 
  ### Contact
- Github: shangfii.github.com
+ Github: shang
 
- Email: shang@shangfii.com
+ Email: shang
 
- linkedIn: https://www.linkedin.com/in/shang-celsius-302a446b/
+ linkedIn: shang
  
