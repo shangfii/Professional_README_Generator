@@ -24,7 +24,11 @@
  shang
 
  ### Usage
- suang
+ To use this application: 
+ ![See How it works](https://github.com/shangfii/Professional_README_Generator/blob/main/images/ezgif.com-gif-maker%20(4).gif)
+ 
+ 
+ [Click Here to Watch a demo Video](https://drive.google.com/file/d/1rucBUa-H8iNrQwsVpgKsi0CAnRBT9YYX/view?usp=sharing)
 
  ### Installation
  shang
